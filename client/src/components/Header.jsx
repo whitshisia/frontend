@@ -1,5 +1,5 @@
 import React from 'react';
-import banner from '../../assets/banner.webp';
+import banner from '../assets/banner.webp';
 
 function Header() {
   return (
