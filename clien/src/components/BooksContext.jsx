@@ -7,7 +7,11 @@ export const BooksProvider = ({ children }) => {
   const [userProfile, setUserProfile] = useState({ borrowedBooks: [] });
   
   useEffect(() => {
-    fetch('http://127.0.0.1:5000/books') // Adjust the URL to your backend endpoint
+    fetch('http://127.0.0.1:5000/books', {
+      mode: 'cors',
+            headers: {
+                'Content-Type': 'application/json',}
+    }) 
       .then(response => response.json())
       .then(data => setBooks(data))
       .catch(error => console.error(error));
