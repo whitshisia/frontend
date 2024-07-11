@@ -5,7 +5,7 @@ import banner from '../assets/banner.webp';
 function Header() {
   const navigate = useNavigate(); 
   const handleGetStarted = () => {
-    navigate('/booklist'); 
+    navigate('/login'); 
   }
 
   return (

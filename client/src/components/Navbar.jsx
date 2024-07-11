@@ -14,8 +14,8 @@ const Navbar = () => {
     <div className='navbar m-2'>
       <nav className="bg-blue-200 dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-          <a href="/home" className="flex items-center space-x-3 rtl:space-x-reverse">
-            <img src={logo} className="h-8" alt="Logo" />
+          <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse text-white text-2xl">Majestic Folio Library
+            {/* <img src={logo} className="h-8" alt="LIBRARY" /> */}
           </a>
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
             <button 
